@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "390760225029",
+    "project_id": "mood-music-app-9b7d4",
+    "storage_bucket": "mood-music-app-9b7d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390760225029:android:25107486f1a198945d7f6c",
+        "android_client_info": {
+          "package_name": "com.kiran.moodmusicapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOZ3rNtdm82Ho09JafpLIG0MAv1im3iaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
