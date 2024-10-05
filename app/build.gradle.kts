@@ -56,6 +56,13 @@ android {
     }
 }
 
+// Resolution strategy for Spotify SDK
+configurations.all {
+    resolutionStrategy {
+        force("com.spotify.android:auth:1.2.3")
+    }
+}
+
 dependencies {
     implementation("com.google.firebase:firebase-auth-ktx:22.0.0")
 
@@ -80,6 +87,14 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // Spotify API dependencies
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation("com.spotify.android:auth:1.2.3")
+
+
+
 }
 
 apply(plugin = "com.google.gms.google-services")
